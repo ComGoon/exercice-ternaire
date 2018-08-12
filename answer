@@ -1,0 +1,17 @@
+<!--Author: Oussoumane Mahaman Madnai ( GOMYC{}DE )-->
+
+<?php
+/**
+ * Created by PhpStorm.
+ * User: comgoon
+ * Date: 8/12/18
+ * Time: 1:37 AM
+ */
+
+
+//declaring they two numbers
+$misteryNumber = 32;
+$myNumber = 32;
+
+//CONGRATS when they are equal, "+" when $myNumber is lesser, else sends "-"
+echo ($misteryNumber === $myNumber) ? ("<strong>Congrats</strong>") : (($myNumber < $misteryNumber) ? "<strong>➕</strong>" : "<strong>➖</strong>") ;
